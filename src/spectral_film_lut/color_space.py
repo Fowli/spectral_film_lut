@@ -54,6 +54,7 @@ class ColorSpace:
 COLOR_SPACES = {
     "Rec. 709": ColorSpace(0.3127, 0.3290, 0.64, 0.33, 0.3, 0.6, 0.15, 0.06),
     "Display P3": ColorSpace(0.3127, 0.3290, 0.68, 0.32, 0.2651, 0.69, 0.15, 0.06),
+    "Adobe RGB": ColorSpace(0.3127, 0.3290, 0.64, 0.33, 0.21, 0.71, 0.15, 0.06),
     "Rec. 2020": ColorSpace(0.3127, 0.329, 0.708, 0.292, 0.17, 0.797, 0.131, 0.046),
     "ACES AP1": ColorSpace(0.32168, 0.33767, 0.713, 0.293, 0.165, 0.830, 0.128, 0.044),
     "ACES AP0": ColorSpace(0.32168, 0.33767, 0.7347, 0.2653, 0.0, 1.0, 0.0001, -0.0770),
@@ -66,6 +67,7 @@ COLOR_SPACES = {
 COLOR_SPACE_KEYS = Literal[
     "Rec. 709",
     "Display P3",
+    "Adobe RGB",
     "Rec. 2020",
     "ACES AP1",
     "ACES AP0",
